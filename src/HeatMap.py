@@ -26,7 +26,3 @@ def heatmap_return(df, value_col='return', time_col='time', agg='sum', title='In
     plt.ylabel('Day')
     plt.tight_layout()
     plt.show()
-
-df = pd.read_csv('dataD.csv')
-dfok = check_data(df)
-heatmap_return(df=dfok)
